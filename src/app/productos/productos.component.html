@@ -1,0 +1,31 @@
+
+
+
+      <br>
+<div class="formulario1"><!--El fondo blanco permite apreciar el texto e imagenes para IU-->
+    <h3 style="text-align: center;">Ultimos estrenos</h3>
+    <app-lista [mensaje]="mensaje"></app-lista>
+<form>
+  
+<table class="table table-striped">
+    <thead>
+        <tr class="table-primary">
+            <th  scope="col">Nombre</th>
+            <th scope="col">Genero</th>
+            <th scope="col">Director</th>
+            <th scope="col">Año</th>
+          </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let pelicula of peliculas">
+          <td>{{pelicula.pelicula}}</td>
+          <td>{{pelicula.genero}}</td>
+          <td>{{pelicula.director}}</td>
+          <td>{{pelicula.anio}}</td>
+
+      </tr>
+    </tbody>
+  </table>
+
+      </form>
+    </div>

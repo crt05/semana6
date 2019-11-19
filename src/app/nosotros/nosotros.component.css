@@ -1,0 +1,30 @@
+
+  .blockquote {
+    padding: 3px 10px;
+    border: PowderBlue 5px solid;
+    border-radius: 20px;
+  }
+
+  .fondo{
+      background-image: url("/assets/fondo-articulos2.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+  }
+
+  .fondo2{
+
+    background: -prefix-linear-gradient(top, blue, white 80%, orange);
+  }
+
+  img{
+      transition: all 0.5s ease;
+      border-style: solid;
+      border-color: gray;
+      border-radius: 30px;
+  }
+
+img:hover{
+    transform: scale(0.9);
+    
+}

@@ -1,0 +1,8 @@
+.fondo1{
+    background-image: url(../assets/inicio2.jpg);
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}

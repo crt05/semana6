@@ -1,0 +1,32 @@
+
+.header1{
+    background-color: white;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+   /* opacity: 0.6;*/
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+.fondo{
+    background-image: url(../../assets/inicio2.jpg);
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img1{
+    width: 55%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: white;
+}
+
